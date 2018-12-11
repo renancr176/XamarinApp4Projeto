@@ -160,4 +160,16 @@
   <ItemGroup>
     <BundleResource Include="Resources\xamarin_logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\avatar_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\avatar_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\avatar_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\meio_circulo.png" />
+  </ItemGroup>
 </Project>

@@ -31,8 +31,24 @@ namespace XamarinApp4Projeto
         private void GoToProfile(object sender, EventArgs args)
         {
             var btn = (Button)sender;
-            var page = new Profile();
-            page.Title = "About " + btn.Text;
+            int idProfile = 1;
+            switch (btn.Text)
+            {
+                case "Joseph Hill":
+                    idProfile = 2;
+                break;
+                case "Nat Friedman":
+                    idProfile = 3;
+                break;
+                default:
+                    idProfile = 1;
+                break;
+            }
+
+            var page = new Profile(idProfile)
+            {
+                Title = "About " + btn.Text
+            };
 
             Detail = new NavigationPage(page)
             {
