@@ -10,7 +10,7 @@ namespace XamarinApp4Projeto
         public App()
         {
             InitializeComponent();
-
+            
             MainPage = new MainPage();
         }
 
