@@ -8,6 +8,7 @@
             <RelativeLayout VerticalOptions="Start"
                             HeightRequest="120">
                 <Image Source="meio_circulo.png"
+                       HeightRequest="80"
                        HorizontalOptions="FillAndExpand"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"></Image>
                 <Image x:Name="ImageAvatar"

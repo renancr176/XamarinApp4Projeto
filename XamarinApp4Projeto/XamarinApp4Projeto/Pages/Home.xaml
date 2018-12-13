@@ -4,10 +4,10 @@
              x:Class="XamarinApp4Projeto.Pages.Home"
              Title="Home">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Image Source="xamarin_logo.png" 
+                   WidthRequest="100"
+                   HorizontalOptions="CenterAndExpand"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

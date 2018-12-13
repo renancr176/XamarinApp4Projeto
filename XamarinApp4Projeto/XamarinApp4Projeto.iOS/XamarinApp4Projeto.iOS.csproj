@@ -172,4 +172,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\meio_circulo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\quadrados_tons_azul.png" />
+  </ItemGroup>
 </Project>

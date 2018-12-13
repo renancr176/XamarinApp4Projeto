@@ -5,9 +5,63 @@
              Title="Sobre o Xamarin">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout BackgroundColor="#FFC926"
+                         HeightRequest="80"
+                         Padding="15"
+                         Margin="0">
+                <Image Source="xamarin_logo.png"
+                       WidthRequest="80"
+                       HeightRequest="80"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="CenterAndExpand"></Image>
+            </StackLayout>
+            <StackLayout HeightRequest="50"
+                         BackgroundColor="#0D1F2D"
+                         Margin="0,-10,0,0">
+                <Label Text="Xamarin"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="CenterAndExpand"
+                       TextColor="White"
+                       FontSize="18"></Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="FillAndExpand"
+                         HeightRequest="40"
+                         Margin="0,0,0,30">
+                <RelativeLayout>
+                    <BoxView BackgroundColor="#0D1F2D"
+                             WidthRequest="30"
+                             HeightRequest="30"
+                             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=1, Constant=10}"
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=1, Constant=10}"></BoxView>
+                    <BoxView BackgroundColor="#25567E"
+                             WidthRequest="30"
+                             HeightRequest="30"
+                             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=1, Constant=25}"
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=1, Constant=25}"></BoxView>
+                    <BoxView BackgroundColor="#4E93CB"
+                             WidthRequest="30"
+                             HeightRequest="30"
+                             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=1, Constant=40}"
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=1, Constant=40}"></BoxView>
+                    <Label Text="Empresa"
+                           TextColor="#0D1F2D"
+                           FontSize="18"
+                           RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=1}"
+                           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=1}"
+                           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+                           RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"></Label>
+                </RelativeLayout>
+            </StackLayout>
+            <StackLayout Padding="10">
+                <ScrollView>
+                    <Label Text="Com uma assinatura Standard ou Anual na Nuvem do Visual Studio, você recebe recursos adicionais no seu IDE do Visual Studio, assim como benefícios como acessar conteúdo sob demanda do currículo da Xamarin University,
+ferramentas gratuitas e ofertas especiais e até $150 de crédito do Azure a cada mês. Membros do programa gratuito do Visual Studio Dev Essentials
+também recebem conteúdo selecionado da Xamarin University."></Label>
+                </ScrollView>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

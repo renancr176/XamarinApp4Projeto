@@ -12,6 +12,7 @@
                              Padding="5,10,5,10"
                              Margin="0,0,0,10">
                     <Image Source="xamarin_logo.png" 
+                           WidthRequest="100"
                            HorizontalOptions="FillAndExpand"
                            VerticalOptions="FillAndExpand"></Image>
                 </StackLayout>
